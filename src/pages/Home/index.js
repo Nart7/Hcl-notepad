@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import styles from './main.module.scss';
 // import components
 import Animation from './../Animation';
+import Draggable from './../Draggable';
 
 // Home Page, its functional component
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
           <div className={styles.head}>
             <Animation />
             <h1 className={styles.headline}>HCI Notepad</h1>
+            <Draggable />
           </div>
         </div>
       </div>
