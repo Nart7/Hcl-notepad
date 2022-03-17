@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 // import external
 import { DraggableCore } from 'react-draggable';
+import { CKEditor } from 'ckeditor4-react';
 export default class Draggable extends Component {
   constructor() {
     super();
@@ -69,7 +70,7 @@ export default class Draggable extends Component {
             </span>
             <br></br>
             <div style={{ display: this.state.showOn ? 'inherit' : 'none' }}>
-              Drag Component is ready
+              <CKEditor />
             </div>
             <div style={{ display: this.state.showOn ? 'none' : 'inherit' }}>
             </div>
